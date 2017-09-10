@@ -39,6 +39,10 @@ public class Snake {
 		// when snake eats a food: keep everything in list, offerFirst() with the food location
 	}
 	
+	public void updateSpeed(int addOn) {
+		// update the snakes speed
+	}
+	
 	public Block getHeadLocation() {
 		// return head location as a block
 		return new Block(this.headX, this.headY);
